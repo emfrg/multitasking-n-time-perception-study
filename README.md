@@ -1,1 +1,2 @@
-# This the main repository (Work-In-Progress) of the MSc Thesis "Multitasking and Time Perception"
+# This repository is a Work-In-Progress. The full code will be added soon. 
+Please find the raw and preprocessed data used in the study.
