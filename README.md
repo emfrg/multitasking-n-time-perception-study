@@ -10,6 +10,8 @@ NOTES: This repository is a Work-In-Progress.
 - [Running Model Simulations](#running-model-simulations)
 - [Running Behavioral Experiment](#running-behavioral-experiment)
 - [Data Analysis](#data-analysis)
+- [Support](#support)
+- [Citation](#citation)
 
 ## Getting Started
 
@@ -119,7 +121,7 @@ You can also choose to create a new virtual environment with Python 3.10 or run 
 
 ### Installation and Execution
 
-Assuming you are still inside the .venv virtual environment
+Assuming you are still inside the .venv virtual environment:
 
 1. **Navigate to experiment directory:**
    ```bash
@@ -136,11 +138,11 @@ Assuming you are still inside the .venv virtual environment
    python multitasking_experiment.py
    ```
 
-*Note:* the terminal or the IDE may require input monitoring permission on macOS 
+*Note: The terminal or IDE may require input monitoring permission on macOS.*
 
 ### Alternative Method (if installation issues occur)
 
-If you still encounter problems with the command-line installation of PsychoPy:
+If you encounter problems with the command-line installation of PsychoPy:
 
 1. Download PsychoPy Builder from [psychopy.org](https://www.psychopy.org)
 2. Open PsychoPy Builder
@@ -151,9 +153,9 @@ If you still encounter problems with the command-line installation of PsychoPy:
 
 *TODO: Data analysis scripts will be added in future updates.*
 
-### Support
+## Support
 
-For issues or questions, please contact the researcher Emmanuel Fragkiadakis at m.frgdakis@gmail.com
+For issues or questions, please contact the researcher Emmanuel Fragkiadakis at [m.frgdakis@gmail.com](mailto:m.frgdakis@gmail.com)
 
 ## Citation
 
@@ -170,6 +172,6 @@ Fragkiadakis, E. (2025). Losing Track of Time: Computational Cognitive Modeling 
   school={Utrecht University},
   type={Master's thesis},
   url={https://studenttheses.uu.nl/handle/20.500.12932/50349},
-  note={Code and data available at: \url{[https://github.com/emfrg/multitasking-n-time-perception-study.git]}}
+  note={Code and data available at: \url{https://github.com/emfrg/multitasking-n-time-perception-study}}
 }
 ```
