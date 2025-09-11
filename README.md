@@ -2,8 +2,10 @@
 
 _Note: This repository is a Work-In-Progress._
 
-- Code sharing: The full model and experiment code can be found in [`/model`](./model) and [`/experiment`](./experiment). The analysis scripts are coming soon.
-- Data sharing: The raw and preprocessed data used in the study can be found in [`/data`](./data).
+- Behavioral study code: [`/experiment`](./experiment).
+- Cognitive model code: [`/model`](./model).
+- Data analysis code: coming soon.
+- Data used in the study: The raw and preprocessed data used in the study can be found in [`/data`](./data).
 
 ## Table of Contents
 
