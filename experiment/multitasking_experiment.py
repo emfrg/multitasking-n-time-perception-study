@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+dummy  #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
 If you publish work using this script the most relevant publication is:
