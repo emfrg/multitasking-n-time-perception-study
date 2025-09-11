@@ -1,4 +1,4 @@
-dummynumpy==2.2.6
+numpy==2.2.6
 pandas==2.3.2
 python-dateutil==2.9.0.post0
 pytz==2025.2
