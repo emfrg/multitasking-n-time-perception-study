@@ -4,11 +4,23 @@ NOTES: This repository is a Work-In-Progress.
 - Data sharing: Please find the raw and preprocessed data used in the study.
 
 ## Table of Contents
+- [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Environment Setup](#environment-setup)
 - [Running Model Simulations](#running-model-simulations)
 - [Running Behavioral Experiment](#running-behavioral-experiment)
 - [Data Analysis](#data-analysis)
+
+## Getting Started
+
+### Clone the Repository
+
+First, clone this repository to your local machine:
+
+```bash
+git clone https://github.com/emfrg/multitasking-n-time-perception-study.git
+cd multitasking-n-time-perception-study
+```
 
 ## Prerequisites
 
@@ -55,7 +67,7 @@ This project requires **Python 3.10** specifically to ensure compatibility with 
    source .venv/bin/activate
    ```
 
-3. **Install dependencies:**
+3. **Install dependencies (PsychoPy excl.):**
    ```bash
    pip install -r requirements.txt
    ```
@@ -93,25 +105,13 @@ Ensure your virtual environment is activated before running simulations.
 
 ### Single Tasks (N-back, Typing)
 
-#### macOS
 ```bash
-python -m model.simulations.tasks
-```
-
-#### Windows
-```cmd
 python -m model.simulations.tasks
 ```
 
 ### Complete Experiment
 
-#### macOS
 ```bash
-python -m model.simulations.experiment
-```
-
-#### Windows
-```cmd
 python -m model.simulations.experiment
 ```
 
@@ -124,8 +124,6 @@ You can also choose to create a new virtual environment with Python 3.10 or run 
 
 Assuming you are still inside .venv virtual environment
 
-#### macOS
-
 1. **Navigate to experiment directory:**
    ```bash
    cd experiment
@@ -138,23 +136,6 @@ Assuming you are still inside .venv virtual environment
 
 3. **Run the experiment:**
    ```bash
-   python multitasking_experiment.py
-   ```
-
-#### Windows
-
-1. **Navigate to experiment directory:**
-   ```cmd
-   cd experiment
-   ```
-
-2. **Install PsychoPy:**
-   ```cmd
-   pip install psychopy
-   ```
-
-3. **Run the experiment:**
-   ```cmd
    python multitasking_experiment.py
    ```
 
@@ -189,12 +170,25 @@ resources/qualtrics_survey/
 
 ### Support
 
-For issues or questions, please open an issue in the repository or contact the maintainer.
-
-## License
-
-[Include your license information here]
+For issues or questions, please contact the researcher Emmanuel Fragkiadakis at m.frgdakis@gmail.com
 
 ## Citation
 
-[Include citation information for your thesis here]
+## Citation
+
+If you use this code or data in your research, please cite:
+
+Fragkiadakis, E. (2025). Losing Track of Time: Computational Cognitive Modeling of Prospective Timing Under Sequential Multitasking [Master's thesis, Utrecht University]. Utrecht University Student Theses Repository. https://studenttheses.uu.nl/handle/20.500.12932/50349
+
+### BibTeX:
+```bibtex
+@mastersthesis{fragkiadakis2025losingtrack,
+  title={Losing Track of Time: Computational Cognitive Modeling of Prospective Timing Under Sequential Multitasking},
+  author={Fragkiadakis, Emmanuel},
+  year={2025},
+  school={Utrecht University},
+  type={Master's thesis},
+  url={https://studenttheses.uu.nl/handle/20.500.12932/50349},
+  note={Code and data available at: \url{[https://github.com/emfrg/multitasking-n-time-perception-study.git]}}
+}
+```
