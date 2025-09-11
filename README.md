@@ -173,7 +173,7 @@ For issues or questions, please contact the researcher Emmanuel Fragkiadakis at 
 
 If you use this code or data in your research, please cite:
 
-Fragkiadakis, E. (2025). Losing Track of Time: Computational Cognitive Modeling of Prospective Timing Under Sequential Multitasking [Master's thesis, Utrecht University]. Utrecht University Student Theses Repository. https://studenttheses.uu.nl/handle/20.500.12932/50349
+Fragkiadakis, E. (2025). _Losing track of time: Computational cognitive modeling of prospective timing under sequential multitasking_ [Master’s thesis, Utrecht University]. Utrecht University Student Theses Repository. https://studenttheses.uu.nl/handle/20.500.12932/50349
 
 ### BibTeX:
 
