@@ -1,9 +1,12 @@
 # Thesis Repository [WIP]
-NOTES: This repository is a Work-In-Progress. 
-- Code sharing: The full model and experiment code are uploaded. The analysis scripts are coming soon. 
-- Data sharing: Please find the raw and preprocessed data used in the study.
+
+_NOTES: This repository is a Work-In-Progress._
+
+- Code sharing: The full model and experiment code can be found in [`/model`](./model) and [`/experiment`](./experiment). The analysis scripts are coming soon.
+- Data sharing: The raw and preprocessed data used in the study can be found in [`/data`](./data).
 
 ## Table of Contents
+
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Environment Setup](#environment-setup)
@@ -33,6 +36,7 @@ This project requires **Python 3.10** specifically to ensure compatibility with 
 #### macOS
 
 1. **Using Homebrew (recommended):**
+
    ```bash
    brew install python@3.10
    ```
@@ -57,16 +61,19 @@ This project requires **Python 3.10** specifically to ensure compatibility with 
 #### macOS
 
 1. **Create virtual environment:**
+
    ```bash
    python3.10 -m venv .venv
    ```
 
 2. **Activate virtual environment:**
+
    ```bash
    source .venv/bin/activate
    ```
 
 3. **Install dependencies (excl. PsychoPy):**
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -79,16 +86,19 @@ This project requires **Python 3.10** specifically to ensure compatibility with 
 #### Windows
 
 1. **Create virtual environment:**
+
    ```cmd
    python -m venv .venv
    ```
 
 2. **Activate virtual environment:**
+
    ```cmd
    .venv\Scripts\activate
    ```
 
 3. **Install dependencies (excl. PsychoPy):**
+
    ```cmd
    pip install -r requirements.txt
    ```
@@ -116,7 +126,7 @@ python -m model.simulations.experiment
 
 ## Running Behavioral Experiment
 
-The behavioral experiment requires PsychoPy. Ensure you're using the Python 3.10 virtual environment we created before. 
+The behavioral experiment requires PsychoPy. Ensure you're using the Python 3.10 virtual environment we created before.
 You can also choose to create a new virtual environment with Python 3.10 or run from the PsychoPy Builder.
 
 ### Installation and Execution
@@ -124,11 +134,13 @@ You can also choose to create a new virtual environment with Python 3.10 or run 
 Assuming you are still inside the .venv virtual environment:
 
 1. **Navigate to experiment directory:**
+
    ```bash
    cd experiment
    ```
 
 2. **Install PsychoPy:**
+
    ```bash
    pip install psychopy
    ```
@@ -138,7 +150,7 @@ Assuming you are still inside the .venv virtual environment:
    python multitasking_experiment.py
    ```
 
-*Note: The terminal or IDE may require input monitoring permission on macOS.*
+_Note: The terminal or IDE may require input monitoring permission on macOS._
 
 ### Alternative Method (if installation issues occur)
 
@@ -151,7 +163,7 @@ If you encounter problems with the command-line installation of PsychoPy:
 
 ## Data Analysis
 
-*TODO: Data analysis scripts will be added in future updates.*
+_TODO: Data analysis scripts will be added in future updates._
 
 ## Support
 
@@ -164,6 +176,7 @@ If you use this code or data in your research, please cite:
 Fragkiadakis, E. (2025). Losing Track of Time: Computational Cognitive Modeling of Prospective Timing Under Sequential Multitasking [Master's thesis, Utrecht University]. Utrecht University Student Theses Repository. https://studenttheses.uu.nl/handle/20.500.12932/50349
 
 ### BibTeX:
+
 ```bibtex
 @mastersthesis{fragkiadakis2025losingtrack,
   title={Losing Track of Time: Computational Cognitive Modeling of Prospective Timing Under Sequential Multitasking},
