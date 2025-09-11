@@ -13,7 +13,7 @@ _Note: This repository is a Work-In-Progress._
 - [Prerequisites](#prerequisites)
 - [Environment Setup](#environment-setup)
 - [Running Model Simulations](#running-model-simulations)
-- [Running Behavioral Experiment](#running-behavioral-experiment)
+- [Running Experiment](#running-experiment)
 - [Data Analysis](#data-analysis)
 - [Support](#support)
 - [Citation](#citation)
@@ -126,7 +126,7 @@ python -m model.simulations.tasks
 python -m model.simulations.experiment
 ```
 
-## Running Behavioral Experiment
+## Running Experiment
 
 The behavioral experiment requires PsychoPy. Ensure you're using the Python 3.10 virtual environment we created before.
 You can also choose to create a new virtual environment with Python 3.10 or run from the PsychoPy Builder.
