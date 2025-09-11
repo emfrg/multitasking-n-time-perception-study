@@ -86,7 +86,7 @@ This project requires **Python 3.10** specifically to ensure compatibility with 
    .venv\Scripts\activate
    ```
 
-3. **Install dependencies:**
+3. **Install dependencies (excl. PsychoPy):**
    ```cmd
    pip install -r requirements.txt
    ```
