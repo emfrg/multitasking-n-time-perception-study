@@ -1,6 +1,6 @@
 # Thesis Repository [WIP]
 
-_NOTES: This repository is a Work-In-Progress._
+_Note: This repository is a Work-In-Progress._
 
 - Code sharing: The full model and experiment code can be found in [`/model`](./model) and [`/experiment`](./experiment). The analysis scripts are coming soon.
 - Data sharing: The raw and preprocessed data used in the study can be found in [`/data`](./data).
