@@ -47,9 +47,7 @@ This project requires **Python 3.10** specifically to ensure compatibility with 
    - **Important:** Check "Add Python 3.10 to PATH"
    - Select "Install Now" or customize as needed
 3. Verify installation by opening Command Prompt:
-   ```cmd
-   python --version
-   ```
+   `python --version`
 
 ## Environment Setup
 
