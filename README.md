@@ -46,8 +46,7 @@ This project requires **Python 3.10** specifically to ensure compatibility with 
 2. Run the installer
    - **Important:** Check "Add Python 3.10 to PATH"
    - Select "Install Now" or customize as needed
-3. Verify installation by opening Command Prompt:
-   `python --version`
+3. Verify installation by opening Command Prompt: `python --version`
 
 ## Environment Setup
 
@@ -65,7 +64,7 @@ This project requires **Python 3.10** specifically to ensure compatibility with 
    source .venv/bin/activate
    ```
 
-3. **Install dependencies (PsychoPy excl.):**
+3. **Install dependencies (excl. PsychoPy):**
    ```bash
    pip install -r requirements.txt
    ```
@@ -120,7 +119,7 @@ You can also choose to create a new virtual environment with Python 3.10 or run 
 
 ### Installation and Execution
 
-Assuming you are still inside .venv virtual environment
+Assuming you are still inside the .venv virtual environment
 
 1. **Navigate to experiment directory:**
    ```bash
@@ -137,40 +136,24 @@ Assuming you are still inside .venv virtual environment
    python multitasking_experiment.py
    ```
 
+*Note:* the terminal or the IDE may require input monitoring permission on macOS 
+
 ### Alternative Method (if installation issues occur)
 
-If you encounter problems with the command-line installation:
+If you still encounter problems with the command-line installation of PsychoPy:
 
 1. Download PsychoPy Builder from [psychopy.org](https://www.psychopy.org)
 2. Open PsychoPy Builder
 3. Load the experiment script .py file
 4. Run directly from the Builder interface
 
-### Participant Resources
-
-Instructions distributed to participants and required resources are available in:
-```
-resources/qualtrics_survey/
-```
-
 ## Data Analysis
 
 *TODO: Data analysis scripts will be added in future updates.*
 
-## Troubleshooting
-
-### Common Issues
-
-1. **Python version conflicts:** Ensure you're using Python 3.10 specifically
-2. **PsychoPy installation errors:** Try the alternative Builder method
-3. **Virtual environment not activating:** Check that Python 3.10 is properly installed
-4. **Module not found errors:** Ensure all dependencies are installed in the active virtual environment
-
 ### Support
 
 For issues or questions, please contact the researcher Emmanuel Fragkiadakis at m.frgdakis@gmail.com
-
-## Citation
 
 ## Citation
 
