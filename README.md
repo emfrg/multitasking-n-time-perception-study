@@ -7,7 +7,7 @@ _Note: This repository is a Work-In-Progress._
 - Data analysis code: coming soon.
 - Data used in the study: [`/data`](./data).
 
-*Paper:* 
+**Paper:**
 https://studenttheses.uu.nl/handle/20.500.12932/50349
 
 ## Table of Contents
