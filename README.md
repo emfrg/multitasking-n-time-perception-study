@@ -9,8 +9,9 @@ https://studenttheses.uu.nl/handle/20.500.12932/50349
 ### Code
 - Behavioral study code: [`/experiment`](./experiment).
 - Cognitive model code: [`/model`](./model).
-- Data analysis code: coming soon.
 - Data used in the study: [`/data`](./data).
+- Data analysis code: coming soon.
+
 
 ## Table of Contents
 
