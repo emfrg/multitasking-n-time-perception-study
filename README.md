@@ -1,7 +1,9 @@
 # Thesis Repository [WIP]
 
-Full Paper: https://studenttheses.uu.nl/handle/20.500.12932/50349
 _Note: This repository is a Work-In-Progress._
+
+Paper: https://studenttheses.uu.nl/handle/20.500.12932/50349
+
 
 - Behavioral study code: [`/experiment`](./experiment).
 - Cognitive model code: [`/model`](./model).
