@@ -86,11 +86,6 @@ This project requires **Python 3.10** specifically to ensure compatibility with 
    pip install -r requirements.txt
    ```
 
-4. **Deactivate when done:**
-   ```bash
-   deactivate
-   ```
-
 #### Windows
 
 1. **Create virtual environment:**
@@ -110,9 +105,9 @@ This project requires **Python 3.10** specifically to ensure compatibility with 
    ```cmd
    pip install -r requirements.txt
    ```
-
-4. **Deactivate when done:**
-   ```cmd
+   
+**Deactivate when done:**
+   ```bash
    deactivate
    ```
 
