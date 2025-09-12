@@ -5,7 +5,7 @@ _Note: This repository is a Work-In-Progress._
 - Behavioral study code: [`/experiment`](./experiment).
 - Cognitive model code: [`/model`](./model).
 - Data analysis code: coming soon.
-- Data used in the study: The raw and preprocessed data can be found in [`/data`](./data).
+- Data used in the study: [`/data`](./data).
 
 ## Table of Contents
 
