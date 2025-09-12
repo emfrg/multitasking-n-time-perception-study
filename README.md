@@ -2,11 +2,11 @@
 
 _Note: This repository is a Work-In-Progress._
 
-### Paper
+#### Paper
 
 https://studenttheses.uu.nl/handle/20.500.12932/50349
 
-### Code
+#### Code
 - Behavioral study code: [`/experiment`](./experiment).
 - Cognitive model code: [`/model`](./model).
 - Data used in the study: [`/data`](./data).
